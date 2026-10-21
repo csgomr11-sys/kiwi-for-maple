@@ -75,7 +75,7 @@ PLAYWRIGHT_BROWSERS_PATH=/workspace/.cache/ms-playwright node tests/web_smoke.cj
 
 已提供手動執行的 `.github/workflows/deploy-pages.yml`。將專案提交到GitHub後，可在儲存庫的Pages設定選GitHub Actions，再手動執行工作流程部署 `site/`。工作流程不會因目前本機建置或聊天自動發布。
 
-目前只有工作區成品與雲端測試服務，**尚未提交、推送或公開上線**。環境發布保存雲端開發快照，與GitHub Pages網站上線是不同動作。
+審查版程式碼與資料已提交並推送 GitHub main。2026-10-21 已執行部署工作流程，建置及核心測試通過，但 configure-pages 因儲存庫尚未啟用 Pages 而失敗；目前 GitHub 連線呼叫啟用 Pages API 回傳 403（Resource not accessible by integration）。需由擁有者在 Settings → Pages → Source 選 GitHub Actions，之後重新執行部署工作流程。公開網址尚未驗證，不應視為已上線。環境發布保存雲端開發快照，與GitHub Pages網站上線是不同動作。
 
 ## 依新增參考站更新的介面與經驗工具
 

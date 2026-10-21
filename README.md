@@ -55,4 +55,4 @@ python -m venv /workspace/maple-venv
 
 測試涵蓋真實資料查詢、39級僧侶篩選、前置展開、材料來源與彙總、未知資料保留，以及原有CSV範例功能。
 
-目前程式碼位於工作區，尚未提交或推送GitHub。
+審查版程式碼與資料已推送至 GitHub main。公開網站仍待啟用 GitHub Pages；目前連線呼叫 Pages 設定 API 回傳 403（Resource not accessible by integration）。
