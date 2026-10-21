@@ -1,0 +1,71 @@
+{
+  "version": "V002",
+  "effectiveDate": "2026-10-15",
+  "reviewedAt": "2026-10-21",
+  "levelCap": 120,
+  "advancementCap": 3,
+  "newRegions": [
+    "天空之城",
+    "冰原雪域"
+  ],
+  "mineScope": "廢棄礦坑前半部；官方未列精確地圖ID邊界",
+  "partyQuest": {
+    "name": "女神的痕跡",
+    "minLevel": 51,
+    "maxLevel": 70,
+    "partySize": 6
+  },
+  "clericChange": "群體治癒僅恢復因怪物攻擊損失的HP，才發放治癒獎勵經驗值。",
+  "halloween": {
+    "start": "2026-10-15",
+    "end": "2026-11-11",
+    "chaptersMinLevels": [
+      10,
+      30,
+      40
+    ],
+    "note": "維護公告與專頁開始日期不一致；本次日期已在兩者開始日期之後，以活動專頁為準。"
+  },
+  "sources": [
+    {
+      "id": "83952",
+      "title": "新楓之谷：經典版 《1015(四)V002覺醒與突破改版維護開機公告》",
+      "url": "https://maplestoryclassic.beanfun.com/Bulletin?bid=83952",
+      "responseSha256": "268c10e0567fd59943ad2c35afc9b4a8ed47abb395e7bdf092fdbdaf5db7b8b5",
+      "checkedAt": "2026-10-21",
+      "responseCode": 1
+    },
+    {
+      "id": "83960",
+      "title": "新楓之谷：經典版《1015(四)V002改版後已知問題公告》(10/16 22:15)",
+      "url": "https://maplestoryclassic.beanfun.com/Bulletin?bid=83960",
+      "responseSha256": "ad67f4dadb9582f4277e4df2f3b1c668f83231e6b0fa195bccff853d38d8bf4b",
+      "checkedAt": "2026-10-21",
+      "responseCode": 1
+    },
+    {
+      "id": "20209",
+      "title": "【內容擴充】",
+      "url": "https://maplestoryclassic-event.beanfun.com/EventAd/EventAd?eventAdId=20209",
+      "responseSha256": "848c9f280c8c08e0da9bfeaff3ae72ebc9e6fa3115e4760786012f01f340977c",
+      "checkedAt": "2026-10-21",
+      "responseCode": 1
+    },
+    {
+      "id": "20210",
+      "title": "【系統與職業平衡調整】",
+      "url": "https://maplestoryclassic-event.beanfun.com/EventAd/EventAd?eventAdId=20210",
+      "responseSha256": "a3d3d08715cead645d81366e421fe1079e1e7508ed53a9773b91207911a7c3cf",
+      "checkedAt": "2026-10-21",
+      "responseCode": 1
+    },
+    {
+      "id": "20213",
+      "title": "【雪原的面具祭典】",
+      "url": "https://maplestoryclassic-event.beanfun.com/EventAd/EventAd?eventAdId=20213",
+      "responseSha256": "377cc2b3527c6050fb731e7d8968c7a063f2f32d15cb79db89b6872372af3933",
+      "checkedAt": "2026-10-21",
+      "responseCode": 1
+    }
+  ]
+}

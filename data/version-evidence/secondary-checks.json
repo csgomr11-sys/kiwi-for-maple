@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-21",
+  "sources": [
+    {
+      "url": "https://david27tainan.github.io/KargoData/data/mobs.json",
+      "status": 200,
+      "sha256": "c721cba15e83c9bbe19e69ab02c328f9c80bf3608443b8380c61cea11d2f5fbe",
+      "bytes": 884757
+    },
+    {
+      "url": "https://david27tainan.github.io/KargoData/data/quests.json",
+      "status": 200,
+      "sha256": "8499b9da62014779e89eeb344caea6a0f6f9048b76e9876b2f40bc854e909ef8",
+      "bytes": 572004
+    },
+    {
+      "url": "https://mapleclassictools.com/db/monster/",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "note": "本次重新讀取的Kargo mobs與quests回應雜湊，與保留研究快照一致。可能共同源於台版客戶端，不能當作獨立伺服器驗證。波波攻略島與楓錄本次重新查閱回403；未以未讀取內容聲稱最新驗證。"
+}
