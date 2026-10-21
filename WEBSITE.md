@@ -75,7 +75,7 @@ PLAYWRIGHT_BROWSERS_PATH=/workspace/.cache/ms-playwright node tests/web_smoke.cj
 
 已提供手動執行的 `.github/workflows/deploy-pages.yml`。將專案提交到GitHub後，可在儲存庫的Pages設定選GitHub Actions，再手動執行工作流程部署 `site/`。工作流程不會因目前本機建置或聊天自動發布。
 
-審查版程式碼與資料已提交並推送 GitHub main。2026-10-21 已執行部署工作流程，建置及核心測試通過，但 configure-pages 因儲存庫尚未啟用 Pages 而失敗；目前 GitHub 連線呼叫啟用 Pages API 回傳 403（Resource not accessible by integration）。需由擁有者在 Settings → Pages → Source 選 GitHub Actions，之後重新執行部署工作流程。公開網址尚未驗證，不應視為已上線。環境發布保存雲端開發快照，與GitHub Pages網站上線是不同動作。
+審查版已發布：https://csgomr11-sys.github.io/kiwi-for-maple/ 。擁有者啟用 Pages 後，GitHub Actions 執行 39560826244 的 build 與 deploy 均成功。已透過正常驗證憑證的 HTTPS 請求確認首頁、app.js、experience.mjs、怪物及數量資料可讀取。雲端 Chromium 的公開網址測試受代理憑證信任錯誤阻擋；未關閉 TLS 驗證，先前本機功能測試通過。網站標示審查版，資料內容仍待使用者確認。環境發布保存雲端開發快照，與網站部署不同。
 
 ## 依新增參考站更新的介面與經驗工具
 

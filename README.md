@@ -55,4 +55,4 @@ python -m venv /workspace/maple-venv
 
 測試涵蓋真實資料查詢、39級僧侶篩選、前置展開、材料來源與彙總、未知資料保留，以及原有CSV範例功能。
 
-審查版程式碼與資料已推送至 GitHub main。公開網站仍待啟用 GitHub Pages；目前連線呼叫 Pages 設定 API 回傳 403（Resource not accessible by integration）。
+審查版已發布：https://csgomr11-sys.github.io/kiwi-for-maple/ 。GitHub Actions 部署成功，已透過 HTTPS 驗證首頁、程式與資料檔可讀取；資料內容仍待使用者審查。
