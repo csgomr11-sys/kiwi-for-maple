@@ -1,0 +1,24 @@
+const {chromium}=require('playwright');const assert=require('node:assert/strict');
+(async()=>{const browser=await chromium.launch();try{
+ const page=await browser.newPage();page.setDefaultTimeout(10000);const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.addInitScript(()=>{if(!localStorage.getItem('kiwi-maple-v1'))localStorage.setItem('kiwi-maple-v1',JSON.stringify({profile:{level:39,str:5,dex:5,int:204,luk:5,heal:7,absorb:20,teleport:1,magic:0,fame:0},selected:['2001'],completed:['2000'],favorites:[],records:[],timers:[]}))});
+ const base=process.env.KIWI_TEST_URL||'http://127.0.0.1:8000';await page.goto(base+'/#training');await page.getByRole('heading',{name:'練功推薦',exact:true}).waitFor();
+ assert.ok((await page.locator('.training-card').first().innerText()).includes('殭屍菇菇'));
+ await page.locator('#profile-open').click();assert.equal(await page.locator('[name=jobId]').inputValue(),'230');assert.equal(await page.locator('[name=attackLevel]').inputValue(),'7');assert.equal(await page.locator('[name=int]').inputValue(),'204');
+ await page.locator('#new-character').click();await page.waitForFunction(()=>document.querySelector('[name=jobId]')?.value==='0');
+ await page.locator('[name=characterName]').fill('我的刺客');await page.locator('[name=level]').fill('39');await page.locator('[name=jobId]').selectOption('410');
+ assert.equal(await page.locator('[name=attackSkill]').inputValue(),'4001344');assert.equal(await page.locator('[name=attackSkill] option[value="2301002"]').count(),0);assert.equal(await page.locator('[data-profile-field=absorb]').isVisible(),false);
+ await page.locator('[name=attackLevel]').fill('20');await page.locator('[name=luk]').fill('180');await page.locator('[name=dex]').fill('40');await page.getByRole('button',{name:'儲存配置',exact:true}).click();
+ await page.waitForFunction(()=>!document.querySelector('#profile').open&&document.querySelector('#profile-label').innerText.includes('刺客'));
+ await page.getByRole('heading',{name:'練功推薦',exact:true}).waitFor();assert.ok((await page.locator('.heading').innerText()).includes('雙飛斬 Lv.20'));assert.ok(!(await page.locator('.training-list').innerText()).includes('群體治癒'));assert.ok((await page.locator('.training-card').first().innerText()).includes('紅螃蟹'));
+ await page.reload();await page.waitForFunction(()=>document.querySelector('#profile-label')?.innerText.includes('刺客'));
+ await page.locator('#profile-open').click();await page.locator('#character-select').selectOption('main');await page.waitForFunction(()=>document.querySelector('[name=jobId]')?.value==='230');assert.equal(await page.locator('[name=int]').inputValue(),'204');assert.equal(await page.locator('[name=attackLevel]').inputValue(),'7');
+ await page.locator('#profile-close').click();await page.waitForFunction(()=>document.querySelector('#profile-label')?.innerText.includes('僧侶'));
+ const state=await page.evaluate(()=>JSON.parse(localStorage.getItem('kiwi-maple-v1')));assert.equal(state.characters.length,2);assert.deepEqual(state.completed,['2000']);assert.deepEqual(state.characters.find(c=>c.name==='我的刺客').completed,[]);assert.deepEqual(state.selected,['2001']);
+ await page.setViewportSize({width:390,height:844});await page.locator('#profile-open').click();
+ assert.equal(await page.locator('#profile').evaluate(el=>el.scrollWidth<=el.clientWidth+1),true);
+ await page.locator('#import-save').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({version:2,...state}))});
+ await page.waitForFunction(()=>!document.querySelector('#profile').open);await page.reload();
+ await page.locator('#profile-open').click();assert.equal(await page.locator('#character-select option').count(),2);assert.equal(await page.locator('[name=int]').inputValue(),'204');assert.deepEqual(errors,[]);
+ console.log('PASS: legacy migration, job/attack selection, automatic recommendations, character switching, isolated progress and reload persistence');
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});

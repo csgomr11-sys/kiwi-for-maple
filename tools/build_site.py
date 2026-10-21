@@ -13,6 +13,7 @@ def main():
     # Rebuild data from scratch so previously published quarantined details disappear.
     if (OUT/'data').exists():shutil.rmtree(OUT/'data')
     catalogs={kind:json.loads((ROOT/f'data/catalog/{kind}.json').read_text())[kind] for kind in ['monsters','items','quests','maps','skills']}
+    original_maps={str(r['id']):r for r in catalogs['maps']}
     catalogs,audit=project(catalogs)
     counts={}
     for kind in ['monsters','items','quests','maps','skills']:
@@ -65,6 +66,22 @@ def main():
             write(Path('data')/p.name,json.loads(p.read_text()))
         else:
             write(Path('data')/p.name,{'versionReview':{'version':'V002','status':'暫緩發布：尚未完成當期來源核對'},'records':[]})
+    training=[]
+    by_id={str(m['id']):m for m in catalogs['monsters']}
+    from collections import Counter
+    for area in catalogs['maps']:
+        spawns=Counter(str(m['monsterId']) for m in original_maps[str(area['id'])].get('monsterSpawns',[]) if not m.get('coordinateMissing'))
+        if not spawns:continue
+        training.append({'id':str(area['id']),'name':area['name'],'regionName':area['regionName'],
+                         'width':area.get('miniMap',{}).get('width'),'height':area.get('miniMap',{}).get('height'),
+                         'unknownSpawns':sum(n for mid,n in spawns.items() if mid not in by_id),
+                         'monsters':[{'id':mid,'name':by_id[mid]['name'],'level':by_id[mid]['level'],
+                                      'hp':by_id[mid]['stats'].get('maxHP'),'exp':by_id[mid]['stats'].get('exp'),
+                                      'undead':bool(by_id[mid]['stats'].get('undead')),'boss':bool(by_id[mid]['stats'].get('boss')),'count':n}
+                                     for mid,n in spawns.items() if mid in by_id]})
+    write(Path('data/training.json'),training)
+    attacks=[{**r,'attack':str(r['id'])=='2301002' or int(r['id'])%10000>=1000 and any((v.get('values',{}).get('damage',0)>0 or v.get('values',{}).get('mad',0)>0) for v in r.get('levels',[]))} for r in catalogs['skills']]
+    write(Path('data/attack-skills.json'),attacks)
     write(Path('data/version-audit.json'),audit)
     write(Path('data/counts.json'),counts)
     shutil.copy2(ROOT/'data/guides.json',OUT/'data/guides.json')

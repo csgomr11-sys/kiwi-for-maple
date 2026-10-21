@@ -8,3 +8,9 @@ dl{display:grid;grid-template-columns:minmax(100px,1fr) minmax(0,3fr);gap:5px 15
 .review-strip{display:flex;align-items:center;gap:12px;padding:9px 28px;background:#fff3d7;border-bottom:1px solid #e3d6b1;color:#695224;font-size:12px}.review-strip strong{white-space:nowrap;background:#8a6c2f;color:white;border-radius:3px;padding:1px 7px;font-size:10px}[data-theme=dark] .review-strip{background:#3c3524;color:#eddbad;border-color:#635535}@media(max-width:760px){.review-strip{padding:8px 14px;font-size:11px;align-items:flex-start}}
 
 .quest-completion{display:inline-flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;padding:7px 4px;font-size:12px;color:var(--muted)}.quest-completion input{width:18px;height:18px;accent-color:var(--accent);cursor:pointer}.quest-completion.is-complete{color:var(--accent);font-weight:600}
+
+.training-summary{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px;background:var(--soft);border:1px solid var(--line);border-radius:7px;margin-bottom:18px}.training-summary h2{margin:5px 0;font-size:20px}.training-summary p{margin:5px 0;font-size:12px}.training-summary small{color:var(--muted)}.training-summary .primary{white-space:nowrap}.training-list{display:grid;gap:16px}.training-card{padding:22px}.training-card h2{margin:10px 0}.training-card p{font-size:13px;line-height:1.9}.training-card .form-actions{gap:18px}@media(max-width:760px){.training-summary{align-items:flex-start;flex-direction:column}.training-card{padding:17px}}
+
+[data-profile-field][hidden]{display:none!important}
+
+#profile .field{min-width:0}#profile .field select{width:100%;min-width:0;max-width:100%}

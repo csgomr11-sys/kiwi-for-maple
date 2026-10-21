@@ -1,4 +1,4 @@
-import{experiencePlan,experienceBetween}from'./core.mjs';
+import{experiencePlan,experienceBetween}from'./core.mjs?v=roles-20261021';
 export function experiencePage({profile,records,mode,heading,table,e,fmt}){
  const tabs=`<div class="tool-tabs">${[['planner','升級經驗試算'],['sessions','練功效率紀錄'],['cross','跨級經驗／單價'],['original','原版經驗追蹤器']].map(([id,t])=>`<button class="secondary ${mode===id?'active':''}" data-exp-mode="${id}">${t}</button>`).join('')}</div>`;
  const f=(name,label,value,extra='')=>`<label class="field">${label}<input name="${name}" type="number" value="${value}" required ${extra}></label>`;

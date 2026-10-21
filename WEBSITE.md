@@ -90,3 +90,13 @@ PLAYWRIGHT_BROWSERS_PATH=/workspace/.cache/ms-playwright node tests/web_smoke.cj
 ```bash
 PLAYWRIGHT_BROWSERS_PATH=/workspace/.cache/ms-playwright node tests/experience_smoke.cjs
 ```
+
+## 自動練功推薦與多角色（2026-10-21）
+
+怪物首頁與角色頁直接顯示自動首選；「練功推薦」列出三組地圖／怪物與原因，不需要先選怪物。只使用發布範圍內有生怪位置的地圖，排除未知生怪與BOSS，依職業、主要攻擊技能、技能等級、血量、同圖混怪及地圖寬高挑保守候選。尚無完整面板／實測傷害，不保證時薪或幾下必殺。
+
+角色設定可選V002已開放的五大職業一至三轉，攻擊技能只列本職與前置轉職可學的主動攻擊。刺客可選雙飛斬；不是以群體治癒為主攻的角色不套用治癒篩選。切換魔力爪也會改為一般法術候選。能力值、物攻／魔攻與技能等級可自行更新；缺少完整武器與傷害資料時不反推精確擊殺效率。
+
+可新增與切換角色；配置、任務規劃與完成、收藏、紀錄、計時分開保存。舊存檔自動遷移為第一隻角色，原INT204與僧侶技能保留；版本2備份包含角色清單，也接受版本1備份。角色名稱與所有進度仍只存在本機瀏覽器，不是雲端帳號同步。
+
+新增驗證：`node --test tests/*.test.mjs`、`node tests/characters_smoke.cjs`、`node tests/search_ime_smoke.cjs`（瀏覽器測試需既有Playwright與設定瀏覽器路徑）。
