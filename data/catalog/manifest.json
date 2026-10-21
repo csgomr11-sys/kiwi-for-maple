@@ -1,0 +1,111 @@
+{
+  "source": "https://morrisrrrrrrr-svg.github.io/",
+  "retrievedAt": "2026-10-21T03:55:02.705458+00:00",
+  "datasets": {
+    "monsters": {
+      "url": "https://morrisrrrrrrr-svg.github.io/data.js",
+      "sha256": "bacd659fa8019e2bb9dcd974b6b74264d8da1eb2584b7f33410e279d3d1b751a",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 8201399
+    },
+    "items": {
+      "url": "https://morrisrrrrrrr-svg.github.io/items-data.js",
+      "sha256": "492742cce843e1c451e42c3ca57be0f43954581e22e1e8bf8980490bee6d95af",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 48733212
+    },
+    "quests": {
+      "url": "https://morrisrrrrrrr-svg.github.io/quests-data.js",
+      "sha256": "6e25badd854a5664253eb745501839ce2a1fb4f4ca735f674e16253fba830e0c",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 8050811
+    },
+    "maps": {
+      "url": "https://morrisrrrrrrr-svg.github.io/maps-data.js",
+      "sha256": "9e184ac528173d58c15f2711b3a3a64db1251ef3cbbac011d48a7af15bc621a3",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 7858952
+    },
+    "skills": {
+      "url": "https://morrisrrrrrrr-svg.github.io/skills-data.js",
+      "sha256": "3a2c8f91d69ca3cb2068fa350eb1912f4bdab9150cab80fc369b39959baa693e",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 1814293
+    },
+    "damage-calculator": {
+      "url": "https://morrisrrrrrrr-svg.github.io/damage-calculator-data.js",
+      "sha256": "76a5b69c52915c64a69e5e97f0d8e24411c656748801ca7aeffea06259d9f862",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 1327846
+    },
+    "combat-analysis": {
+      "url": "https://morrisrrrrrrr-svg.github.io/combat-analysis-data.js",
+      "sha256": "f9dc161772739f7c7c8cc64fb0d9f4c9fecb83807258373db99761170e8f8483",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 9219
+    },
+    "scroll-simulator": {
+      "url": "https://morrisrrrrrrr-svg.github.io/scroll-simulator-data.js",
+      "sha256": "d8ebad0e678688bbd93ad3a4cb39786eb38b8a9e7746a9fcbcd125268174c74c",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 1318930
+    },
+    "gacha-simulator": {
+      "url": "https://morrisrrrrrrr-svg.github.io/gacha-simulator-data.js",
+      "sha256": "738efbce22de843f76439656769752243ffadea012b9779f7657e03510a71889",
+      "hashOf": "parsed-json-cache",
+      "version": null,
+      "bytes": 66554
+    },
+    "third-job": {
+      "url": "https://morrisrrrrrrr-svg.github.io/third-job-data.js",
+      "sha256": "02332c1e7e7c3ed5261f723ae175b993d4b663676a7fefe00613648f7db157d3",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 277677
+    },
+    "goddess-tower": {
+      "url": "https://morrisrrrrrrr-svg.github.io/goddess-tower-data.js",
+      "sha256": "60592ef5977cf440b6dbed04ad3e4d3c15ea2b69f45c3cb795506088aff2d813",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 1414
+    },
+    "exp-exchange": {
+      "url": "https://morrisrrrrrrr-svg.github.io/exp-exchange-data.js",
+      "sha256": "468e3cc6ee30fa4c71b6df099f74894d65328a5fe756da3274c825fc7c5bf410",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 49922
+    },
+    "skill-changes": {
+      "url": "https://morrisrrrrrrr-svg.github.io/skill-changes-data.js",
+      "sha256": "7f6409d6d7fc86d01dec88ae93b05a746566c383d91356c379c648d45c0fd3d0",
+      "hashOf": "parsed-json-cache",
+      "version": null,
+      "bytes": 267533
+    },
+    "halloween": {
+      "url": "https://morrisrrrrrrr-svg.github.io/halloween-data.js",
+      "sha256": "6dce1c5ee0d5afbd16a085bde225c27c9df29e05d8c3e8a102f21812cfb353ec",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 614061
+    },
+    "avatar-maker": {
+      "url": "https://morrisrrrrrrr-svg.github.io/avatar-maker-data.js",
+      "sha256": "ea375236871eefdc198172c8ad8aba7a5d17796a5f82fd6170543d54d78d9349",
+      "hashOf": "parsed-json-cache",
+      "version": "2.0.0",
+      "bytes": 1097069
+    }
+  }
+}

@@ -1,0 +1,3 @@
+world,version,source,name,level,hp,exp,map,kills_per_min,drops
+示範世界,DEMO,虛構範例非遊戲數值,示範菇菇,10,100,20,示範森林,15,示範菇傘（機率未知）
+示範世界,DEMO,虛構範例非遊戲數值,示範石像,25,800,90,示範遺跡,8,示範石片（機率未知）

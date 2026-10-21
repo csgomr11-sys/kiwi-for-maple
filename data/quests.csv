@@ -1,0 +1,3 @@
+world,version,source,id,name,min_level,prerequisites,location,recommended_map,minutes,exp,mesos,reward_items,materials,kills
+示範世界,DEMO,虛構範例非遊戲數值,demo1,示範收集任務,10,,示範村莊,示範森林,10,1000,500,示範藥水×5,示範菇傘:20,示範菇菇:30
+示範世界,DEMO,虛構範例非遊戲數值,demo2,示範討伐任務,20,demo1,示範村莊,示範遺跡,20,3000,800,示範卷軸×1,示範菇傘:10;示範石片:5,示範石像:50

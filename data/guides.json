@@ -1,0 +1,415 @@
+{
+  "retrievedAt": "2026-10-21T05:55:12.986278+00:00",
+  "guides": [
+    {
+      "title": "限時活動",
+      "url": "https://bobogameguides.com/maplestory-classic/events/",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "更新紀錄",
+      "url": "https://bobogameguides.com/maplestory-classic/updates/",
+      "category": "改版資訊",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "五大職業",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/jobs-overview.html",
+      "category": "職業與技能",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "職業技能",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/skills-overview.html",
+      "category": "職業與技能",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "練功路線",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/leveling-routes.html",
+      "category": "練等與經驗",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "組隊經驗機制",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/party-exp.html",
+      "category": "組隊與BOSS",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "任務一覽",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/quests.html",
+      "category": "任務與材料",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "月光迷你寵物",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/moonlight-mini-pets.html",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "實用小技巧",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/tips.html",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "轉蛋機率",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/gacha-rates.html",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "卷軸計算與模擬",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/scroll-calculator.html",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "轉蛋模擬器",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/gacha-simulator.html",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "BOSS 重生時間",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/boss-respawn.html",
+      "category": "組隊與BOSS",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "冒險家的戒指第一階段 Lv30 二轉常態任務，生命／靈魂／調和三款能力與任務線索。",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/adventurer-ring.html",
+      "category": "任務與材料",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "菇菇通行證 Season 1 每帳號限一角色；查看一般／高級獎勵與使用期限。",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/mushroom-pass-season-1.html",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "下載與常見問題 官網下載在哪、手機能不能玩、進不了遊戲怎麼排查？答案集中在 FAQ。",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/launch-faq.html",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "【V002覺醒與突破】版本慶祝活動",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#v002-celebration-20261015",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "菇菇通行證 Season 2",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#mushroom-pass-season-2-20261015",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "突破與覺醒—伺服器爭霸賽",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#server-race-20261015",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "雪原的面具祭典",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#mask-festival-20261015",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "愛美組合包 10/15 期",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#beauty-package-20261015",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "普通轉蛋機 10/7 期",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#normal-gacha-20261007",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "記憶音樂盒",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#music-box-20260917",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "月光共鳴石",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#moonlight-resonance-20260917",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "菇菇通行證 Season 1",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#mushroom-pass-20260910",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "愛美組合包",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#beauty-package-20260910",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "皇家美容院 10/7 期",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#royal-salon-20261007",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "閃亮／璀璨彗星 10/7 期",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#comets-20261007",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "坦尼亞／馬裘里套組",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#sale-set-tania-majory",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "三轉覺醒，最後倒數！每日登入送",
+      "url": "https://bobogameguides.com/maplestory-classic/events/#login-countdown-2026-10-09",
+      "category": "活動與機率",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "查看 9/23 官方維護與商品調整紀錄",
+      "url": "https://bobogameguides.com/maplestory-classic/updates/#maintenance-adjustment-2026-09-24",
+      "category": "改版資訊",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "8 月 Gama Play 簽到歷史",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/gama-play-checkin.html",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "查看改版內容與已知問題",
+      "url": "https://bobogameguides.com/maplestory-classic/updates/#v002-release-2026-10-15",
+      "category": "改版資訊",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "10/2 預告歷史",
+      "url": "https://bobogameguides.com/maplestory-classic/updates/#v002-preview-2026-10-02",
+      "category": "改版資訊",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "看說明",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/launch-faq.html#gamapass-title",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "看開服歷史與商城；當期內容見本頁 V002 摘要",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/launch-faq.html#v001-title",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "版本與資料來源辨識 為什麼不能把 Artale、其他地區或現行版數值直接套進來。",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/version-guide.html",
+      "category": "綜合攻略",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "月妙組隊任務（新手衝等副本） 邱比特公園進入、六色種子位置與搗年糕流程；逐項標明實測狀態。",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/moon-bunny-pq.html",
+      "category": "組隊與BOSS",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "超綠組隊任務（21~30 快速衝等） 墮落城市進入、五關流程與經驗值、答題對照與跳木桶順序。",
+      "url": "https://bobogameguides.com/maplestory-classic/guides/king-slime-pq.html",
+      "category": "組隊與BOSS",
+      "source": "波波攻略島",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "title": "攻略文章",
+      "url": "https://mapleclassictools.com/guides/",
+      "category": "綜合攻略",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "看 Lv.1~30 開服練功路線 →",
+      "url": "https://mapleclassictools.com/guides/launch-leveling-guide/",
+      "category": "練等與經驗",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "閱讀三轉與冰原雪域預覽 →",
+      "url": "https://mapleclassictools.com/guides/third-job-el-nath/",
+      "category": "職業與技能",
+      "source": "楓錄",
+      "status": "原站預覽／尚待本服確認",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "攻略 還沒決定要玩哪個職業？ 選職業指南整理了五大系的優缺點與適合的玩法，創角前先定好方向，比玩到一半後悔重練省事 創角前",
+      "url": "https://mapleclassictools.com/guides/job-selection-guide/",
+      "category": "職業與技能",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "看 Lv.1~200 完整經驗值表 →",
+      "url": "https://mapleclassictools.com/guides/exp-table/",
+      "category": "練等與經驗",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "看經驗值曲線解析 →",
+      "url": "https://mapleclassictools.com/guides/exp-curve-guide/",
+      "category": "練等與經驗",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "看加倍卷解析 →",
+      "url": "https://mapleclassictools.com/guides/coupon-stacking-guide/",
+      "category": "綜合攻略",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "看卷軸期望值解析 →",
+      "url": "https://mapleclassictools.com/guides/scroll-expected-value-guide/",
+      "category": "綜合攻略",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    },
+    {
+      "title": "轉職路線與三、四轉舊版參考",
+      "url": "https://mapleclassictools.com/guides/job-advancement-guide/",
+      "category": "職業與技能",
+      "source": "楓錄",
+      "status": "現行適用性待核對",
+      "indexUrl": "https://mapleclassictools.com/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "波波攻略島",
+      "url": "https://bobogameguides.com/maplestory-classic/"
+    },
+    {
+      "name": "楓錄",
+      "url": "https://mapleclassictools.com/",
+      "maintenance": "來源首頁已公告停止更新；不當作現行版本保證"
+    },
+    {
+      "name": "楓記",
+      "url": "https://fj.need.run/",
+      "scope": "原站目前標示國服懷舊服預設；獨立顯示，不覆蓋台版經驗表"
+    },
+    {
+      "name": "楓小舖",
+      "url": "https://inquisitive-pithivier-b2c027.netlify.app/",
+      "scope": "原版標示阿泰爾／楓星；僅參考跨級經驗、效率與單價流程，不混入台版經驗表或商業宣傳"
+    },
+    {
+      "name": "楓情報經驗統計",
+      "url": "https://kafuffu20.com/exp-tracker.html#dashboard",
+      "scope": "原站標示台版經典版專用；保留原版操作入口，本站未重製其PaddleOCR引擎"
+    }
+  ]
+}
