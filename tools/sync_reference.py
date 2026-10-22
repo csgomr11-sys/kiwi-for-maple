@@ -1,3 +1,4 @@
+from source_policy import approved_open, require_allowed
 """Import factual tables from the user-selected reference, never execute remote JS.
 
 UI code and guide prose are not copied. Asset URLs remain links to the source.
@@ -28,7 +29,7 @@ def main():
         if local and local.exists():
             raw=local.read_bytes();d=json.loads(raw);kind='parsed-json-cache'
         else:
-            with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'KiwiMapleResearch/0.1'}),timeout=60) as r:raw=r.read(100000001)
+            with approved_open(urllib.request.Request(url,headers={'User-Agent':'KiwiMapleResearch/0.1'}),timeout=60) as r:raw=r.read(100000001)
             if len(raw)>100000000:raise ValueError('Unexpected oversized response')
             js=raw.decode('utf-8-sig');prefix,value=js.split('=',1)
             if not prefix.strip().startswith('window.'):raise ValueError('Unsupported data wrapper')

@@ -1,0 +1,330 @@
+{
+  "reviewedAt": "2026-10-22",
+  "method": "遊戲實際存在／開放證據，與客戶端可解析性分開；同源網站不算獨立實測。",
+  "sources": {
+    "gloves": {
+      "url": "https://bobogameguides.com/maplestory-classic/guides/glove-quest-line.html",
+      "checkedAt": "2026-10-22",
+      "sha256": "f280b1ab57dc53e7ff78ca10c827af8363925f60b947213179d244d35145103d",
+      "type": "台服玩家回報整理（非站長完整實拍）",
+      "reportedAt": "2026-08-04"
+    },
+    "maya": {
+      "url": "https://bobogameguides.com/maplestory-classic/guides/maya-hat-quest.html",
+      "checkedAt": "2026-10-22",
+      "sha256": "9042e196520adb211465071de032a0a9d51254b2dad5cad9ed124701624cb618",
+      "type": "台服玩家回報整理（非站長完整實拍）",
+      "reportedAt": "2026-08-04"
+    },
+    "sauna": {
+      "url": "https://bobogameguides.com/maplestory-classic/guides/sauna-robe-quest.html",
+      "checkedAt": "2026-10-22",
+      "sha256": "651b04bc6f512280606eacf4eea97fb9be20a64bdc353c90afc0559cc2ed0b83",
+      "type": "台服玩家回報整理（非站長完整實拍）",
+      "reportedAt": "2026-08-02"
+    },
+    "snail": {
+      "url": "https://bobogameguides.com/maplestory-classic/guides/snail-legend-quest.html",
+      "checkedAt": "2026-10-22",
+      "sha256": "48b568ea9f95c1d1ea2add66a8a826f899133ae55ffcdf1beecff2f1d00a0bf6",
+      "type": "台服玩家回報整理（非站長完整實拍）",
+      "reportedAt": "2026-08-04"
+    },
+    "official-party": {
+      "url": "https://maplestoryclassic-event.beanfun.com/EventAd/EventAd?eventAdId=20209",
+      "checkedAt": "2026-10-22",
+      "type": "官方V002開放公告",
+      "reportedAt": "2026-10-15",
+      "responseUrl": "https://maplestoryclassic-event.beanfun.com/api/EventAd/GetDetail?EventADID=20209",
+      "sha256": "848c9f280c8c08e0da9bfeaff3ae72ebc9e6fa3115e4760786012f01f340977c"
+    },
+    "official-event": {
+      "url": "https://maplestoryclassic-event.beanfun.com/EventAd/EventAd?eventAdId=20213",
+      "checkedAt": "2026-10-22",
+      "type": "官方當期活動說明",
+      "reportedAt": "2026-10-15",
+      "responseUrl": "https://maplestoryclassic-event.beanfun.com/api/EventAd/GetDetail?EventADID=20213",
+      "sha256": "377cc2b3527c6050fb731e7d8968c7a063f2f32d15cb79db89b6872372af3933"
+    }
+  },
+  "reportedUnavailable": {
+    "2103": {
+      "name": "內拉的夢",
+      "date": "2026-10-22",
+      "source": "網站使用者回報現行遊戲沒有此任務；與多個客戶端型網站列出資料存在衝突，先撤出可用清單。"
+    },
+    "2104": {
+      "name": "潘喜的紅色毛球",
+      "date": "2026-10-22",
+      "source": "必要前置為被回報不存在的2103；缺乏獨立本服實測，撤出同一鏈。"
+    }
+  },
+  "entries": {
+    "2002": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "2003": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "2004": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "2005": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4000008",
+          "count": 40
+        }
+      ]
+    },
+    "2006": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4000004",
+          "count": 50
+        },
+        {
+          "id": "4000005",
+          "count": 50
+        },
+        {
+          "id": "4000006",
+          "count": 20
+        },
+        {
+          "id": "4031005",
+          "count": 1
+        }
+      ]
+    },
+    "2007": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4031004",
+          "count": 1
+        }
+      ]
+    },
+    "2008": {
+      "source": "maya",
+      "notes": "台服玩家回報瑪亞任務路線與材料；報告日期2026-08-04。V002未逐步實拍，未核實欄位留空。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4031006",
+          "count": 1
+        }
+      ]
+    },
+    "2029": {
+      "source": "gloves",
+      "notes": "台服玩家回報內拉／約翰手套路線；報告日期2026-08-04。職業手套款式與各步驟完整條件未逐項實拍。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4000012",
+          "count": 50
+        },
+        {
+          "id": "4000037",
+          "count": 50
+        }
+      ]
+    },
+    "2030": {
+      "source": "gloves",
+      "notes": "台服玩家回報內拉／約翰手套路線；報告日期2026-08-04。職業手套款式與各步驟完整條件未逐項實拍。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4003000",
+          "count": 5
+        },
+        {
+          "id": "4003001",
+          "count": 5
+        }
+      ]
+    },
+    "2031": {
+      "source": "gloves",
+      "notes": "台服玩家回報內拉／約翰手套路線；報告日期2026-08-04。職業手套款式與各步驟完整條件未逐項實拍。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4000006",
+          "count": 100
+        },
+        {
+          "id": "2022000",
+          "count": 1
+        }
+      ]
+    },
+    "2052": {
+      "source": "gloves",
+      "notes": "台服玩家回報內拉／約翰手套路線；報告日期2026-08-04。職業手套款式與各步驟完整條件未逐項實拍。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4031025",
+          "count": 10
+        }
+      ]
+    },
+    "2053": {
+      "source": "gloves",
+      "notes": "台服玩家回報內拉／約翰手套路線；報告日期2026-08-04。職業手套款式與各步驟完整條件未逐項實拍。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "2019": {
+      "source": "sauna",
+      "notes": "同為台服經典版玩家實測整理（2026-08-02）；V002未重新實拍。只保留有明確回報的部分，舊版入口／費用不採用。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "2020": {
+      "source": "sauna",
+      "notes": "同為台服經典版玩家實測整理（2026-08-02）；V002未重新實拍。只保留有明確回報的部分，舊版入口／費用不採用。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4000029",
+          "count": 50
+        },
+        {
+          "id": "4031014",
+          "count": 1
+        },
+        {
+          "id": "4031015",
+          "count": 1
+        }
+      ]
+    },
+    "2021": {
+      "source": "sauna",
+      "notes": "同為台服經典版玩家實測整理（2026-08-02）；V002未重新實拍。只保留有明確回報的部分，舊版入口／費用不採用。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4000017",
+          "count": 5
+        },
+        {
+          "id": "4000013",
+          "count": 50
+        }
+      ]
+    },
+    "2022": {
+      "source": "sauna",
+      "notes": "同為台服經典版玩家實測整理（2026-08-02）；V002未重新實拍。只保留有明確回報的部分，舊版入口／費用不採用。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4021007",
+          "count": 1
+        }
+      ]
+    },
+    "2023": {
+      "source": "sauna",
+      "notes": "同為台服經典版玩家實測整理（2026-08-02）；V002未重新實拍。只保留有明確回報的部分，舊版入口／費用不採用。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "4031016",
+          "count": 1
+        }
+      ]
+    },
+    "2156": {
+      "source": "snail",
+      "notes": "台服玩家回報紅寶王、彩虹蝸牛殼與最終獎勵；前段NPC流程仍是舊版候選，不視為已確認前置。",
+      "plannable": false,
+      "requirementsConfirmed": false,
+      "materials": [
+        {
+          "id": "2210006",
+          "count": 1
+        }
+      ]
+    },
+    "1203": {
+      "source": "official-party",
+      "notes": "官方確認女神的痕跡已開放，51～70級、6人。完整材料、任務腳本及數值獎勵未核實。",
+      "plannable": false,
+      "requirementsConfirmed": true,
+      "minLevel": 51,
+      "maxLevel": 70
+    },
+    "506371": {
+      "source": "official-event",
+      "notes": "官方活動頁明確提及此任務；存在依據與完整接取條件分開處理，不由整個活動已開推定其餘任務也已開。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "506372": {
+      "source": "official-event",
+      "notes": "官方活動頁明確提及此任務；存在依據與完整接取條件分開處理，不由整個活動已開推定其餘任務也已開。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "506373": {
+      "source": "official-event",
+      "notes": "官方活動頁明確提及此任務；存在依據與完整接取條件分開處理，不由整個活動已開推定其餘任務也已開。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    },
+    "506374": {
+      "source": "official-event",
+      "notes": "官方活動頁明確提及此任務；存在依據與完整接取條件分開處理，不由整個活動已開推定其餘任務也已開。",
+      "plannable": false,
+      "requirementsConfirmed": false
+    }
+  },
+  "conflicts": [
+    {
+      "name": "內拉的夢",
+      "id": "2103",
+      "urls": [
+        "https://maplecodex.com/quests/2103",
+        "https://maple.xflow-ai.com/db/quest/2103",
+        "https://bobogameguides.com/maplestory-classic/guides/quests.html#quest-2103"
+      ],
+      "finding": "多站列出不代表實際開放；海馬楓報明示GMS/83與HeavenMS，波波主表明示來源為客戶端QuestData。使用者回報遊戲沒有，不能用這些同源靜態表駁回。"
+    }
+  ]
+}

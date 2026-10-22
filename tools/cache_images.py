@@ -1,3 +1,4 @@
+from source_policy import approved_open, require_allowed
 """Cache visible game thumbnails with normal TLS validation; no source UI assets."""
 import concurrent.futures,json,urllib.request
 from pathlib import Path
@@ -14,7 +15,7 @@ def fetch(p):
     out=ROOT/'web'/p
     if out.exists():return p,True
     try:
-        with urllib.request.urlopen(BASE+p,timeout=20) as r:body=r.read(2000000)
+        with approved_open(BASE+p,timeout=20) as r:body=r.read(2000000)
         if not body.startswith(b'\x89PNG\r\n\x1a\n'):return p,False
         out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(body);return p,True
     except Exception:return p,False

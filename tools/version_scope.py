@@ -7,6 +7,7 @@ from collections import Counter
 from copy import deepcopy
 from pathlib import Path
 import json
+from quest_presence import publish_quest
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_REGIONS = {'楓之島', '維多利亞島', '奇幻村', '鯨魚號'}
@@ -44,7 +45,7 @@ def project(catalogs):
     report = {'version': 'V002', 'reviewedAt': '2026-10-21',
               'label': '台版新楓之谷：經典版 V002｜天空之城・冰原雪域',
               'levelCap': 120, 'official': json.loads((ROOT/'data/version-evidence/official-v002.json').read_text()),
-              'limitations': ['已逐筆執行版本範圍與來源檢查；不等於逐筆遊戲內實測。',
+              'limitations': ['任務改採逐項開放／玩家實測依據；不再以地區、NPC存在或客戶端版本號推定任務可接。', '台服玩家回報保留實測日期；V001回報不升格成V002逐項實拍。', '已逐筆執行版本範圍與來源檢查；不等於逐筆遊戲內實測。',
                              '客戶端2.0.0與官方V002的命名不是同一種版本編號。',
                              '本服怪物圖鑑可支援掉落品項，不能證明伺服器機率；機率一律未知。',
                              '商店、製作、轉蛋與歷史兌換關係缺少當期證據，暫不發布。',
@@ -78,29 +79,24 @@ def project(catalogs):
         row.pop('mesoDrop', None)
         decide('monsters', row, 'scoped', '本服2.0.0怪物表，出沒地圖符合V002範圍；數值仍待遊戲實測')
         monsters[str(row['id'])] = row
+    presence=json.loads((ROOT/'data/quest_availability.json').read_text())
+    report['questPresenceReview']=presence
+    report['reviewedAt']=presence['reviewedAt']
     quests = {}
     for row in source['quests']:
         refs = list(row.get('mapReferences', []))
         for side in ['startNpc', 'endNpc']:
             refs.extend((row.get(side) or {}).get('maps', []))
-        if (row.get('minLevel') or 0) > 120:
-            status, reason = 'excluded', '接取等級超過V002上限120'
-        elif any(decisions['maps'].get(str(m['id'])) == 'excluded' for m in refs):
-            status, reason = 'excluded', '任務關聯地圖含未開放的後期地區'
-        elif (row.get('startRequirements') or {}).get('jobs') and not any(j in CURRENT_JOBS for j in row['startRequirements']['jobs']):
-            status, reason = 'excluded', '職業條件只含尚未開放的職業／四轉'
-        elif row['category'] == '活動' and not row['name'].startswith('[萬聖節]'):
-            status, reason = 'pending', '其他活動的當期時程與開放依據不足'
-        elif str(row['id'])=='1203' and row.get('minLevel')==51 and row.get('maxLevel')==70:
-            status, reason = 'scoped', '官方20209確認女神的痕跡51～70級、6人；過期地圖ID關聯已移除'
-        elif row['name'].startswith('[萬聖節]'):
-            status, reason = 'scoped', '官方當期萬聖節活動與本服2.0.0任務系列對照；逐項獎勵非官方逐筆驗證'
-        elif not refs or any(str(m['id']) not in maps for m in refs):
-            status, reason = 'pending', '任務地點／特殊場景尚未全部通過本次版本範圍核對'
-        elif any(str(m['id']) not in monsters for stage in ['startRequirements', 'completeRequirements'] for m in (row.get(stage) or {}).get('monsters', [])):
-            status, reason = 'pending', '擊殺需求含尚未確認的怪物'
+        qid=str(row['id'])
+        if qid in presence['reportedUnavailable']:
+            status,reason='excluded',presence['reportedUnavailable'][qid]['source']
+        elif qid in presence['entries']:
+            row=publish_quest(row,presence['entries'][qid],presence['sources'])
+            status,reason='scoped',row['availability']['sourceType']+'；'+row['availability']['notes']
+        elif (row.get('minLevel') or 0)>120:
+            status,reason='excluded','接取等級超過當期上限'
         else:
-            status, reason = 'scoped', '本服2.0.0任務條件與地點符合V002範圍；服務端腳本與收益仍待實測'
+            status,reason='pending','只有客戶端／資料庫記錄，尚缺本服開放或玩家實測依據；不能當作遊戲裡有此任務'
         decide('quests', row, status, reason)
         if status == 'scoped': quests[str(row['id'])] = row
     # Do not offer a quest whose required completed predecessor has been withheld.
@@ -129,7 +125,7 @@ def project(catalogs):
             drop['dropRateStatus'] = '本服機率未公開；不採用他版機率'
             item_ids.add(str(drop['id'])); drops.append(drop)
         row['drops'] = drops
-        row['questRequirements'] = [q for q in row.get('questRequirements', []) if str(q.get('questId')) in quests]
+        row['questRequirements'] = []  # No verified kill-condition evidence yet.
     for row in quests.values():
         for stage in ['startRequirements', 'completeRequirements', 'startRewards', 'completeRewards']:
             item_ids.update(str(i['id']) for i in (row.get(stage) or {}).get('items', []))
@@ -143,7 +139,7 @@ def project(catalogs):
         relations = row.get('sources', {})
         relations['monsterDrops'] = [r for r in relations.get('monsterDrops', []) if str(r['monsterId']) in monsters and r.get('source') in SUPPORTED_DROP_SOURCES and any(str(d['id']) in aliases for d in monsters[str(r['monsterId'])]['drops'])]
         for key in ['questRewards', 'questRequirements']:
-            relations[key] = [r for r in relations.get(key, []) if str(r['questId']) in quests]
+            relations[key] = [r for r in relations.get(key, []) if str(r['questId']) in quests and any(str(i['id']) in aliases for stage in (['startRewards','completeRewards'] if key=='questRewards' else ['startRequirements','completeRequirements']) for i in quests[str(r['questId'])][stage].get('items',[]))]
         for key in ['shops', 'crafts', 'craftRequirements', 'boxChoices', 'boxSources', 'gachaSources', 'exchangeSources']:
             removed['暫緩發布的'+key] += len(relations.get(key, [])); relations[key] = []
         row['sourceCounts'] = {k: len(v) for k, v in relations.items()}
@@ -171,7 +167,7 @@ def project(catalogs):
         source[kind] = []
         for row in records.values():
             row = clean(row)
-            row['versionReview'] = {'version': 'V002', 'status': '範圍核對通過，數值待實測', 'sourceVersion': '台版客戶端2.0.0（來源站標示）'}
+            row['versionReview'] = {'version': 'V002', 'status': ('有開放／本服回報依據；其餘條件待核實' if kind=='quests' else '範圍核對通過，數值待實測'), 'sourceVersion': '台版客戶端2.0.0（來源站標示）'}
             source[kind].append(row)
         report['summary'][kind] = dict(Counter(decisions[kind].values())) | {'total': len(catalogs[kind])}
     report['removedRelations'] = dict(removed)
@@ -186,7 +182,7 @@ def crosscheck(source):
     """Compare preserved TW client catalogs, not independent server validation."""
     other=json.loads((ROOT/'data/classic.json').read_text())
     result={'source':'https://david27tainan.github.io/KargoData/',
-            'note':'另一份台版2.0.0整理；可能同源，不代表官方或獨立遊戲實測。缺值不補0。',
+            'note':'歷史快照一致性檢查；此來源已停止更新，不屬於目前四個授權來源，不能作為當期實裝證明。缺值不補0。',
             'matched':0,'missing':0,'conflicts':[]}
     for kind in ['monsters','quests']:
         lookup={str(r['id']):r for r in other[kind]}

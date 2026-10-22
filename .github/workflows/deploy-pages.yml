@@ -22,6 +22,7 @@ jobs:
       - run: python tools/build_site.py
       - run: node --test tests/*.test.mjs
       - run: python -m unittest discover -s tests -p test_version_scope.py -v
+      - run: python -m unittest discover -s tests -p test_source_policy.py -v
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,4 +1,4 @@
-import{attackMode}from'./character.mjs?v=roles-20261021';
+import{attackMode}from'./character.mjs?v=quest-presence-20261022';
 // Conservative recommendations from the published V002 map/spawn projection.
 // These rules choose safe starting candidates; they do not estimate damage or EXP/hour.
 export function recommendTraining(areas,profile){

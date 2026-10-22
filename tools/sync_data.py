@@ -1,3 +1,4 @@
+from source_policy import approved_open, require_allowed
 """Fetch public factual tables, preserving provenance and unknown values.
 
 No game executables, images, guide prose, private APIs or authentication used.
@@ -19,7 +20,7 @@ CHECK = "https://bobogameguides.com/maplestory-classic/monsters/"
 def get(url, cache):
     path = cache / (hashlib.sha256(url.encode()).hexdigest() + ".raw")
     req = urllib.request.Request(url, headers={"User-Agent": "KiwiMapleResearch/0.1 (public game-data research)"})
-    with urllib.request.urlopen(req, timeout=40) as response:
+    with approved_open(req, timeout=40) as response:
         raw = response.read(15_000_001)
         if len(raw) > 15_000_000:
             raise ValueError("Unexpected oversized response")
@@ -83,6 +84,7 @@ def build(raw, check_html):
     return {"monsters": monsters, "quests": quests, "maps": map_rows, "cross_checks": comparisons}
 
 def main():
+    require_allowed(BASE)
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, default=ROOT / 'data/classic.json')
     args = parser.parse_args()

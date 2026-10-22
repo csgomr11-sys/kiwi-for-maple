@@ -20,7 +20,7 @@ def main():
         rows=catalogs[kind];counts[kind]=len(rows)
         keys={'monsters':['id','name','versionReview','level','stats','image','continents','onlyUnnamedMaps','elemental'],
               'items':['id','name','mergedIds','category','subcategory','image','equipStats','hasSource','sourceCounts'],
-              'quests':['id','name','minLevel','maxLevel','category','parent','startNpc','endNpc','startRequirements','completeRequirements','startRewards','completeRewards'],
+              'quests':['id','name','availability','minLevel','maxLevel','category','parent','startNpc','endNpc','startRequirements','completeRequirements','startRewards','completeRewards'],
               'maps':['id','name','street','regionName','specialMap','monsterSpawnCount','npcSpawnCount','portalCount','miniMapImage'],
               'skills':['id','name','jobId','jobName','jobGroup','advancement','maxLevel','image']}[kind]
         index=[{k:r.get(k) for k in keys} for r in rows]

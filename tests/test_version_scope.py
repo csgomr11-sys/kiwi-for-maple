@@ -45,6 +45,22 @@ class VersionScopeTests(unittest.TestCase):
             for stage in ['startRequirements','completeRequirements','startRewards','completeRewards']:
                 for item in (q.get(stage) or {}).get('items',[]):self.assertTrue(exists('items',item['id']),(q['id'],item['id']))
 
+    def test_client_record_is_not_presence_evidence(self):
+        rows={q['id']:q for q in self.datasets['quests']}
+        self.assertNotIn('2103',rows)
+        self.assertNotIn('2104',rows)
+        self.assertIn('1203',rows)
+        for q in rows.values():
+            self.assertTrue(q['availability']['presenceEvidence'])
+            self.assertTrue(q['availability']['sourceUrl'].startswith('https://'))
+            self.assertFalse(q['availability']['plannable'])
+            self.assertIsNone(q['completeRewards']['exp'])
+        bucket=json.loads((self.site/'quests-detail/2.json').read_text())
+        self.assertNotIn('2103',bucket)
+        report=next(r for r in self.audit['records'] if r['kind']=='quests' and r['id']=='2103')
+        self.assertEqual(report['status'],'excluded')
+        self.assertIn('使用者回報',report['reason'])
+
     def test_audit_covers_source_rows_and_keeps_provenance_limitations(self):
         for kind,summary in self.audit['summary'].items():
             self.assertEqual(summary['total'],sum(summary.get(s,0) for s in ['scoped','pending','excluded']))
