@@ -45,6 +45,20 @@
       "reportedAt": "2026-10-15",
       "responseUrl": "https://maplestoryclassic-event.beanfun.com/api/EventAd/GetDetail?EventADID=20213",
       "sha256": "377cc2b3527c6050fb731e7d8968c7a063f2f32d15cb79db89b6872372af3933"
+    },
+    "moon-bunny": {
+      "url": "https://bobogameguides.com/maplestory-classic/guides/moon-bunny-pq.html",
+      "checkedAt": "2026-10-22",
+      "reportedAt": "2026-07-30",
+      "sha256": "8e1b2e96534f477439b53d9a10b85685adf0eedeaec0e0dc9ded3835169f2f29",
+      "type": "波波站長台服實測紀錄"
+    },
+    "king-slime": {
+      "url": "https://bobogameguides.com/maplestory-classic/guides/king-slime-pq.html",
+      "checkedAt": "2026-10-22",
+      "reportedAt": "2026-08-16",
+      "sha256": "d35ac563fb28dbd5ea878486dfd996c892c305d8c3a78911ae68de2bc03d2cbc",
+      "type": "台服玩家組隊／通關回報整理"
     }
   },
   "reportedUnavailable": {
@@ -313,6 +327,16 @@
       "notes": "官方活動頁明確提及此任務；存在依據與完整接取條件分開處理，不由整個活動已開推定其餘任務也已開。",
       "plannable": false,
       "requirementsConfirmed": false
+    },
+    "1200": {
+      "source": "moon-bunny",
+      "requirementsConfirmed": false,
+      "notes": "波波記錄站長2026-07-30親自完成台服月妙流程；此為V001日期，未宣稱V002逐項重拍。"
+    },
+    "1201": {
+      "source": "king-slime",
+      "requirementsConfirmed": false,
+      "notes": "波波整理台服21～30級、4人超綠組隊回報；經驗總數非逐關結算實拍，來源日期2026-08-16。"
     }
   },
   "conflicts": [

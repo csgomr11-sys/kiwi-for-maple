@@ -1,31 +1,15 @@
-const {chromium}=require('playwright');
-const assert=require('node:assert/strict');
-(async()=>{
-  const browser=await chromium.launch();
-  try{
-    const page=await browser.newPage();
-    const base=process.env.KIWI_TEST_URL||'http://127.0.0.1:8000';
-    await page.goto(base+'/#quests');
-    await page.locator('#db-search').fill('女神的痕跡');
-    let checkbox=page.locator('[data-quest-completed="1203"]');
-    await checkbox.waitFor();
-    assert.equal(await checkbox.isChecked(),false);
-    await checkbox.check();
-    await page.locator('.quest-completion.is-complete input[data-quest-completed="1203"]').waitFor();
-    await page.reload();
-    await page.locator('#db-search').fill('女神的痕跡');
-    await checkbox.waitFor();
-    assert.equal(await checkbox.isChecked(),true);
-    await page.locator('#quest-status').selectOption('incomplete');
-    await checkbox.waitFor({state:'detached'});
-    await page.locator('#quest-status').selectOption('completed');
-    await checkbox.waitFor();
-    await page.locator('#quest-status').selectOption('all');
-    await checkbox.uncheck();
-    await page.locator('[data-detail="quests"][data-id="1203"]').click();
-    await page.locator('#detail [data-quest-completed="1203"]').check();
-    await page.locator('#detail .quest-completion.is-complete').waitFor();
-    assert.ok((await page.locator('#detail-body').innerText()).includes('官方V002開放公告'));
-    console.log('PASS: quest check/uncheck, reload persistence, progress filters, confirmed-presence detail synchronization');
-  }finally{await browser.close()}
-})().catch(error=>{console.error(error);process.exit(1)});
+const {chromium}=require('playwright');const assert=require('node:assert/strict');
+(async()=>{const browser=await chromium.launch();try{
+ const page=await browser.newPage({viewport:{width:1440,height:1050}});page.setDefaultTimeout(15000);const errors=[];page.on('pageerror',e=>errors.push(e.message));const base=process.env.KIWI_TEST_URL||'http://127.0.0.1:8000';
+ await page.goto(base+'/#quests');await page.locator('#quest-search').waitFor();assert.ok(await page.locator('[data-quest-select]').count()>350);assert.equal(await page.locator('[data-quest-select="2103"]').count(),0);
+ await page.locator('#quest-search').fill('酋長蓋房子');await page.locator('#quest-reader h2').filter({hasText:'酋長蓋房子'}).waitFor();const check=page.locator('#quest-reader [data-quest-completed="2001"]');assert.equal(await check.isChecked(),false);
+ await page.waitForFunction(()=>document.querySelector('#quest-reader .quest-portrait img')?.naturalWidth>0);assert.ok(await page.locator('#quest-reader img').count()>5);
+ assert.ok((await page.locator('#quest-reader').innerText()).includes('20,000'));assert.ok((await page.locator('#quest-reader').innerText()).includes('石塊'));
+ await check.check();await page.locator('#quest-reader .quest-completion.is-complete').waitFor();await page.reload();await page.locator('#quest-search').fill('酋長蓋房子');await check.waitFor();assert.equal(await check.isChecked(),true);
+ await page.locator('#quest-status').selectOption('incomplete');await page.locator('.quest-index .empty').waitFor();await page.locator('#quest-status').selectOption('completed');await check.waitFor();assert.equal(await check.isChecked(),true);
+ await page.locator('#quest-status').selectOption('all');await check.uncheck();await page.locator('#quest-reader [data-plan="2001"]').click();await page.goto(base+'/#plan');await page.getByRole('heading',{name:'我的材料清單',exact:true}).waitFor();assert.ok((await page.locator('main').innerText()).includes('石塊'));
+ await page.goto(base+'/#quests');await page.locator('#quest-search').fill('女神的痕跡');await page.locator('#quest-reader h2').filter({hasText:'女神的痕跡'}).waitFor();await page.locator('#quest-reader .quest-source').evaluate(el=>el.open=true);assert.ok((await page.locator('#quest-reader .quest-source').innerText()).includes('官方V002開放公告'));
+ await page.locator('#quest-reset').click();await page.locator('#quest-category').selectOption('冰原雪域');await page.waitForFunction(()=>document.querySelectorAll('[data-quest-select]').length>0&&[...document.querySelectorAll('.quest-index-text small')].every(x=>x.textContent.includes('冰原雪域')));
+ await page.setViewportSize({width:390,height:844});await page.locator('#quest-reset').click();await page.locator('#quest-search').fill('酋長蓋房子');await page.locator('#quest-reader h2').filter({hasText:'酋長蓋房子'}).waitFor();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);await page.screenshot({path:'/tmp/kiwi-quests-mobile.png',fullPage:true});assert.deepEqual(errors,[]);
+ console.log('PASS: 350+ quests, two-pane details, NPC/item icons, completion persistence and filtering, source materials, official evidence, category filter, mobile layout');
+ }finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});

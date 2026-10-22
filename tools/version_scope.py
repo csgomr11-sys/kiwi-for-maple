@@ -45,7 +45,7 @@ def project(catalogs):
     report = {'version': 'V002', 'reviewedAt': '2026-10-21',
               'label': '台版新楓之谷：經典版 V002｜天空之城・冰原雪域',
               'levelCap': 120, 'official': json.loads((ROOT/'data/version-evidence/official-v002.json').read_text()),
-              'limitations': ['任務改採逐項開放／玩家實測依據；不再以地區、NPC存在或客戶端版本號推定任務可接。', '台服玩家回報保留實測日期；V001回報不升格成V002逐項實拍。', '已逐筆執行版本範圍與來源檢查；不等於逐筆遊戲內實測。',
+              'limitations': ['任務以楓憶當期資料表為主，排除明確後期範圍及已回報未開放項目；範圍符合不等於逐項遊戲實測。', '台服玩家回報保留實測日期；V001回報不升格成V002逐項實拍。', '已逐筆執行版本範圍與來源檢查；不等於逐筆遊戲內實測。',
                              '客戶端2.0.0與官方V002的命名不是同一種版本編號。',
                              '本服怪物圖鑑可支援掉落品項，不能證明伺服器機率；機率一律未知。',
                              '商店、製作、轉蛋與歷史兌換關係缺少當期證據，暫不發布。',
@@ -81,6 +81,7 @@ def project(catalogs):
         monsters[str(row['id'])] = row
     presence=json.loads((ROOT/'data/quest_availability.json').read_text())
     report['questPresenceReview']=presence
+    report['questSourceReview']=json.loads((ROOT/'data/version-evidence/quest-source-review.json').read_text())
     report['reviewedAt']=presence['reviewedAt']
     quests = {}
     for row in source['quests']:
@@ -89,14 +90,29 @@ def project(catalogs):
             refs.extend((row.get(side) or {}).get('maps', []))
         qid=str(row['id'])
         if qid in presence['reportedUnavailable']:
-            status,reason='excluded',presence['reportedUnavailable'][qid]['source']
+            status, reason = 'excluded', presence['reportedUnavailable'][qid]['source']
+        elif (row.get('minLevel') or 0) > 120:
+            status, reason = 'excluded', '接取等級超過V002上限120'
+        elif any(decisions['maps'].get(str(m['id'])) == 'excluded' for m in refs):
+            status, reason = 'excluded', '任務關聯地圖含未開放的後期地區'
+        elif (row.get('startRequirements') or {}).get('jobs') and not any(j in CURRENT_JOBS for j in row['startRequirements']['jobs']):
+            status, reason = 'excluded', '職業條件只含尚未開放的職業／四轉'
         elif qid in presence['entries']:
-            row=publish_quest(row,presence['entries'][qid],presence['sources'])
-            status,reason='scoped',row['availability']['sourceType']+'；'+row['availability']['notes']
-        elif (row.get('minLevel') or 0)>120:
-            status,reason='excluded','接取等級超過當期上限'
+            status, reason = 'scoped', '有官方公告或台服玩家紀錄支援此任務；數值仍按楓憶來源標示'
+        elif row['category'] == '活動' and not row['name'].startswith('[萬聖節]'):
+            status, reason = 'pending', '其他活動的當期時程與開放依據不足'
+        elif str(row['id'])=='1203' and row.get('minLevel')==51 and row.get('maxLevel')==70:
+            status, reason = 'scoped', '官方20209確認女神的痕跡51～70級、6人；過期地圖ID關聯已移除'
+        elif row['name'].startswith('[萬聖節]'):
+            status, reason = 'scoped', '官方當期萬聖節活動與本服2.0.0任務系列對照；逐項獎勵非官方逐筆驗證'
+        elif not refs or any(str(m['id']) not in maps for m in refs):
+            status, reason = 'pending', '任務地點／特殊場景尚未全部通過本次版本範圍核對'
+        elif any(str(m['id']) not in monsters for stage in ['startRequirements', 'completeRequirements'] for m in (row.get(stage) or {}).get('monsters', [])):
+            status, reason = 'pending', '擊殺需求含尚未確認的怪物'
         else:
-            status,reason='pending','只有客戶端／資料庫記錄，尚缺本服開放或玩家實測依據；不能當作遊戲裡有此任務'
+            status, reason = 'scoped', '本服2.0.0任務條件與地點符合V002範圍；服務端腳本與收益仍待實測'
+        if status == 'scoped':
+            row=publish_quest(row,presence['entries'].get(qid),presence['sources'])
         decide('quests', row, status, reason)
         if status == 'scoped': quests[str(row['id'])] = row
     # Do not offer a quest whose required completed predecessor has been withheld.
@@ -167,7 +183,7 @@ def project(catalogs):
         source[kind] = []
         for row in records.values():
             row = clean(row)
-            row['versionReview'] = {'version': 'V002', 'status': ('有開放／本服回報依據；其餘條件待核實' if kind=='quests' else '範圍核對通過，數值待實測'), 'sourceVersion': '台版客戶端2.0.0（來源站標示）'}
+            row['versionReview'] = {'version': 'V002', 'status': ('楓憶資料表・依當期範圍整理；開放與數值以遊戲為準' if kind=='quests' else '範圍核對通過，數值待實測'), 'sourceVersion': '台版客戶端2.0.0（來源站標示）'}
             source[kind].append(row)
         report['summary'][kind] = dict(Counter(decisions[kind].values())) | {'total': len(catalogs[kind])}
     report['removedRelations'] = dict(removed)

@@ -1,0 +1,2704 @@
+{
+  "checkedAt": "2026-10-22",
+  "method": "逐頁透過本機唯讀鏡像開啟；原始內容以正常TLS從楓憶取得，瀏覽器視覺檢查及控制項記錄；未複製原站程式碼至本站。",
+  "pages": [
+    {
+      "page": "quests",
+      "url": "https://morrisrrrrrrr-svg.github.io/quests.html",
+      "checkedAt": "2026-10-22",
+      "title": "任務資料庫｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：弓箭手之路"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "弓箭手之路\n            職業 · 無等級限制\n            坤 · 維多利亞 / 維多利亞港"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：法師之路"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "法師之路\n            職業 · 無等級限制\n            坤 · 維多利亞 / 維多利亞港"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：海盜入門"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "海盜入門\n            職業 · 無等級限制\n            坤 · 維多利亞 / 維多利亞港"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：盜賊之路"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "盜賊之路\n            職業 · 無等級限制\n            坤 · 維多利亞 / 維多利亞港"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：戰士之路"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "戰士之路\n            職業 · 無等級限制\n            坤 · 維多利亞 / 維多利亞港"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手法師的第一次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手法師的第一次修煉\n            職業 · Lv.8-13\n            漢斯 · 維多利亞 / "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手法師的第二次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手法師的第二次修煉\n            職業 · Lv.9-14\n            漢斯 · 維多利亞 / "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：弓箭手之路"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "弓箭手之路\n            職業 · Lv.10-30\n            赫麗娜 · 維多利亞 / 弓箭手"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：初級海盜的第一次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "初級海盜的第一次修煉\n            職業 · Lv.10-15\n            卡伊琳 · 隱藏地圖 "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手弓箭手的第一次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手弓箭手的第一次修煉\n            職業 · Lv.10-15\n            赫麗娜 · 維多利亞"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手法師的第三次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手法師的第三次修煉\n            職業 · Lv.10-15\n            漢斯 · 維多利亞 /"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手盜賊的第一次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手盜賊的第一次修煉\n            職業 · Lv.10-15\n            達克魯 · 維多利亞 "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手劍士的第一次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手劍士的第一次修煉\n            職業 · Lv.10-15\n            武術教練 · 維多利亞"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：初級海盜的第二次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "初級海盜的第二次修煉\n            職業 · Lv.11-16\n            卡伊琳 · 隱藏地圖 "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：新手弓箭手的第二次修煉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "新手弓箭手的第二次修煉\n            職業 · Lv.11-16\n            赫麗娜 · 維多利亞"
+        }
+      ],
+      "images": 580,
+      "loadedImages": 69,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "index",
+      "url": "https://morrisrrrrrrr-svg.github.io/index.html",
+      "checkedAt": "2026-10-22",
+      "title": "怪物掉落搜尋｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：嫩寶"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "嫩寶\n          Lv.1\n          楓之島、維多利亞島 +1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：菇菇仔"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "菇菇仔\n          Lv.2\n          楓之島、維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：藍寶"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "藍寶\n          Lv.2\n          楓之島、維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：木妖"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "木妖\n          Lv.4\n          楓之島、維多利亞島 +1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：紅寶"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "紅寶\n          Lv.4\n          楓之島、維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：綠水靈"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "綠水靈\n          Lv.6\n          楓之島、維多利亞島 +1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：肥肥"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "肥肥\n          Lv.7\n          楓之島、維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：菇菇寶貝"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "菇菇寶貝\n          Lv.8\n          楓之島、維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：黑木妖"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "黑木妖\n          Lv.10\n          維多利亞島、奇幻村"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：緞帶肥肥"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "緞帶肥肥\n          Lv.10\n          維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：三眼章魚"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "三眼章魚\n          Lv.12\n          維多利亞島、奇幻村"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：綠菇菇"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "綠菇菇\n          Lv.15\n          維多利亞島、奇幻村"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：藍水靈"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "藍水靈\n          Lv.15\n          維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：斧木妖"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "斧木妖\n          Lv.17\n          維多利亞島"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：發芽木妖"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "發芽木妖\n          Lv.19\n          維多利亞島"
+        }
+      ],
+      "images": 199,
+      "loadedImages": 100,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "items",
+      "url": "https://morrisrrrrrrr-svg.github.io/items.html",
+      "checkedAt": "2026-10-22",
+      "title": "道具資料庫｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：(咕嚕咕嚕)"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "(咕嚕咕嚕)\n          時裝 · 帽子\n          轉蛋 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：(組合包)冒險家欄位入門包"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "(組合包)冒險家欄位入門包\n          現金 · 現金道具\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：10個一轉技能點數重配卷軸交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "10個一轉技能點數重配卷軸交換券\n          消耗\n          轉蛋 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：10個能力點數重配卷軸交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "10個能力點數重配卷軸交換券\n          消耗\n          轉蛋 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：120楓葉點數兌換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "120楓葉點數兌換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：1320楓葉點數交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "1320楓葉點數交換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：150楓葉點數交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "150楓葉點數交換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：2個經驗值1.5倍券(30分鐘)交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "2個經驗值1.5倍券(30分鐘)交換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：300楓葉點數交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "300楓葉點數交換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：5000楓葉點數兌換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "5000楓葉點數兌換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：500楓葉點數交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "500楓葉點數交換券\n          現金 · 兌換券\n          購買 2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：50楓葉點數交換券"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "50楓葉點數交換券\n          現金 · 兌換券\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：一片冰蛋糕"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "一片冰蛋糕\n          消耗 · 食物\n          怪物 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：一朵向日葵"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "一朵向日葵\n          時裝 · 帽子\n          購買 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：一朵無窮花"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "一朵無窮花\n          時裝 · 帽子\n          購買 1"
+        }
+      ],
+      "images": 903,
+      "loadedImages": 50,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "maps",
+      "url": "https://morrisrrrrrrr-svg.github.io/maps.html",
+      "checkedAt": "2026-10-22",
+      "title": "地圖資料庫｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：公會本部<英雄之殿>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "公會本部<英雄之殿>\n            冰原雪域 · 天空之城\n            0 個重生點 · 3 個 "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城\n            冰原雪域 · 艾納斯大陸\n            0 個重生點 · 15 個 NPC "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城公園"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城公園\n            冰原雪域 · 天空之城\n            0 個重生點 · 4 個 NPC "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城武器店"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城武器店\n            冰原雪域 · 天空之城\n            0 個重生點 · 2 個 NPC"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城美髮店"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城美髮店\n            冰原雪域 · 天空之城公園\n            0 個重生點 · 2 個 N"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城售票處"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城售票處\n            冰原雪域 · 天空之城\n            0 個重生點 · 2 個 NPC"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<10層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<10層>\n            冰原雪域 · 天空之城\n            22 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<11層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<11層>\n            冰原雪域 · 天空之城\n            17 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<12層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<12層>\n            冰原雪域 · 天空之城\n            19 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<13層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<13層>\n            冰原雪域 · 天空之城\n            19 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<14層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<14層>\n            冰原雪域 · 天空之城\n            14 個重生點 · 1 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<15層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<15層>\n            冰原雪域 · 天空之城\n            18 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<16層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<16層>\n            冰原雪域 · 天空之城\n            21 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<17層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<17層>\n            冰原雪域 · 天空之城\n            16 個重生點 · 0 個"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：天空之城塔<18層>"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "天空之城塔<18層>\n            冰原雪域 · 天空之城\n            17 個重生點 · 0 個"
+        }
+      ],
+      "images": 428,
+      "loadedImages": 54,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "skills",
+      "url": "https://morrisrrrrrrr-svg.github.io/skills.html",
+      "checkedAt": "2026-10-22",
+      "title": "技能資料庫｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：生命淨化"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "生命淨化\n          冒險家劍士 · 一轉\n          劍士入門\n        \n        最高"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：生命擴展"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "生命擴展\n          冒險家劍士 · 一轉\n          劍士入門\n        \n        最高"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：生命恢復"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "生命恢復\n          冒險家劍士 · 一轉\n          劍士入門\n        \n        最高"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：自身強化"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "自身強化\n          冒險家劍士 · 一轉\n          劍士入門\n        \n        最高"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：魔天一擊"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "魔天一擊\n          冒險家劍士 · 一轉\n          劍士入門\n        \n        最高"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：劍氣縱橫"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "劍氣縱橫\n          冒險家劍士 · 一轉\n          劍士入門\n        \n        最高"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：精準之劍"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "精準之劍\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：精準之斧"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "精準之斧\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：終極之劍"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "終極之劍\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：終極之斧"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "終極之斧\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：快速之劍"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "快速之劍\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：快速之斧"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "快速之斧\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：激勵"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "激勵\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最高 "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：反射之盾"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "反射之盾\n          冒險家劍士 · 二轉\n          狂戰士之路\n        \n        最"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：精準之劍"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "submit",
+          "text": "精準之劍\n          冒險家劍士 · 二轉\n          見習騎士之路\n        \n        "
+        }
+      ],
+      "images": 672,
+      "loadedImages": 49,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "scroll-simulator",
+      "url": "https://morrisrrrrrrr-svg.github.io/scroll-simulator.html",
+      "checkedAt": "2026-10-22",
+      "title": "卷軸強化模擬器｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "id": "equipmentSearch",
+          "type": "search",
+          "text": "輸入裝備名稱或 ID"
+        },
+        {
+          "tag": "SELECT",
+          "id": "equipmentGroupFilter",
+          "type": "select-one",
+          "text": "以裝備大類篩選"
+        },
+        {
+          "tag": "SELECT",
+          "id": "equipmentPartFilter",
+          "type": "select-one",
+          "text": "以裝備部位篩選"
+        },
+        {
+          "tag": "SELECT",
+          "id": "equipmentJobFilter",
+          "type": "select-one",
+          "text": "以裝備可用職業篩選"
+        },
+        {
+          "tag": "INPUT",
+          "id": "itemLevelMin",
+          "type": "number",
+          "text": "最低等級"
+        },
+        {
+          "tag": "INPUT",
+          "id": "itemLevelMax",
+          "type": "number",
+          "text": "最高等級"
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipmentSourcedOnly",
+          "type": "checkbox",
+          "text": ""
+        },
+        {
+          "tag": "SELECT",
+          "id": "equipmentSelect",
+          "type": "select-one",
+          "text": "選擇裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "平凡的格子襯衫\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "樸素的武士上衣\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "灰棉T恤\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "白棉T恤\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "白色無袖短T\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "白色背心\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "紅線無袖衫\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "綠色短T\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "黃色短T\n        上衣 · 無等級限制\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "灰修煉服\n        上衣 · Lv.8\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "綠棉製緊身衣\n        上衣 · Lv.8\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "藍修煉服\n        上衣 · Lv.8\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "黑棉製緊身衣\n        上衣 · Lv.8\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "紅夢\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "綠色旅行服\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "草色旅行服\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "藍戰士甲\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "藍皮製鎧甲\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "褐戰士甲\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "褐旅行服\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "青夢\n        上衣 · Lv.10\n      \n      7 次"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "黃旅行服\n        上衣 · Lv.10\n      \n      7 次"
+        }
+      ],
+      "images": 386,
+      "loadedImages": 93,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "damage-calculator",
+      "url": "https://morrisrrrrrrr-svg.github.io/damage-calculator.html",
+      "checkedAt": "2026-10-22",
+      "title": "戰鬥力計算機｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "SELECT",
+          "id": "jobSelect",
+          "type": "select-one",
+          "text": "英雄聖騎士黑騎士大魔導士（火、毒）大魔導士（冰、雷）主教箭神神射手夜使者暗影神偷拳霸槍神"
+        },
+        {
+          "tag": "INPUT",
+          "id": "characterLevel",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "SELECT",
+          "id": "weaponSelect",
+          "type": "select-one",
+          "text": "單手劍雙手劍單手斧雙手斧"
+        },
+        {
+          "tag": "INPUT",
+          "id": "baseSTR",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "baseDEX",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "baseINT",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "baseLUK",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipSTR",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipDEX",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipINT",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipLUK",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "weaponAttack",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipAttack",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "weaponMagic",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "equipMagic",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "spiritBlessingLevel",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "0"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "Ⅰ"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "Ⅱ"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "Ⅲ"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "Ⅳ"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "skillReset",
+          "type": "button",
+          "text": "重設"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "number",
+          "text": "嫩寶丟擲術 等級"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "嫩寶丟擲術 加至可分配上限"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "number",
+          "text": "團隊治癒 等級"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "團隊治癒 加至可分配上限"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "number",
+          "text": "疾風之步 等級"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "疾風之步 加至可分配上限"
+        },
+        {
+          "tag": "INPUT",
+          "id": "specialBuffsharp_eyes",
+          "type": "checkbox",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "number",
+          "text": "會心之眼 等級"
+        }
+      ],
+      "images": 13,
+      "loadedImages": 13,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "combat-analysis",
+      "url": "https://morrisrrrrrrr-svg.github.io/combat-analysis.html",
+      "checkedAt": "2026-10-22",
+      "title": "戰鬥分析｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "shareScreenButton",
+          "type": "button",
+          "text": "分享螢幕"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "startAnalysisButton",
+          "type": "button",
+          "text": "開始分析"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "combatHudButton",
+          "type": "button",
+          "text": "開啟 HUD"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "combatHudPopupButton",
+          "type": "button",
+          "text": "HUD 小視窗"
+        },
+        {
+          "tag": "SELECT",
+          "id": "captureIntervalSelect",
+          "type": "select-one",
+          "text": "2 秒\n              5 秒\n              10 秒"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "retryOcrButton",
+          "type": "button",
+          "text": "重新載入辨識"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "disconnectCaptureButton",
+          "type": "button",
+          "text": "中斷分享"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "resetSnapshotsButton",
+          "type": "button",
+          "text": "重設紀錄"
+        },
+        {
+          "tag": "SELECT",
+          "id": "ocrResolutionSelect",
+          "type": "select-one",
+          "text": "自動偵測\n              1366x768\n              1920x1080\n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "generateShareImageButton",
+          "type": "button",
+          "text": "生成分享圖"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "downloadShareImageButton",
+          "type": "button",
+          "text": "下載分享圖"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "exportReportDatasetButton",
+          "type": "button",
+          "text": "打包回報資料"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "emailReportDatasetButton",
+          "type": "button",
+          "text": "寄給 GitHub mail"
+        }
+      ],
+      "images": 3,
+      "loadedImages": 3,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "avatar-maker",
+      "url": "https://morrisrrrrrrr-svg.github.io/avatar-maker.html",
+      "checkedAt": "2026-10-22",
+      "title": "線上紙娃娃｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "flipAvatar",
+          "type": "button",
+          "text": "左右翻轉"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "randomAvatar",
+          "type": "button",
+          "text": "隨機搭配"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "resetAvatar",
+          "type": "button",
+          "text": "重設"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "downloadAvatar",
+          "type": "button",
+          "text": "下載 PNG"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "removeAvatarChair",
+          "type": "button",
+          "text": "站起"
+        },
+        {
+          "tag": "SELECT",
+          "id": "avatarAction",
+          "type": "select-one",
+          "text": "站立走路警戒跳躍"
+        },
+        {
+          "tag": "SELECT",
+          "id": "avatarExpression",
+          "type": "select-one",
+          "text": "一般微笑生氣哭泣眨眼"
+        },
+        {
+          "tag": "SELECT",
+          "id": "avatarAnimate",
+          "type": "select-one",
+          "text": "播放停止"
+        },
+        {
+          "tag": "SELECT",
+          "id": "avatarBackground",
+          "type": "select-one",
+          "text": "格線透明綠色藍色"
+        },
+        {
+          "tag": "SELECT",
+          "id": "avatarPetAction",
+          "type": "select-one",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "avatarSearch",
+          "type": "search",
+          "text": "搜尋名稱或道具 ID"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "皮膚 8"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "髮型 3,758"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "臉型 244"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "帽子 941"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "套服 570"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "上衣 439"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "褲裙 393"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "鞋子 500"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "手套 270"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "披風 236"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "武器 907"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "眼飾 82"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "臉飾 106"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "耳環 57"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "盾牌 53"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "特效 54"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "寵物 84"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "椅子 58"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "名牌戒指 40"
+        }
+      ],
+      "images": 184,
+      "loadedImages": 98,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "boss-timer",
+      "url": "https://morrisrrrrrrr-svg.github.io/boss-timer.html",
+      "checkedAt": "2026-10-22",
+      "title": "Boss 計時器｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：紅寶王（海岸草叢Ⅲ）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "紅寶王\n            45 分 · 維多利亞 / 海岸草叢Ⅲ\n            尚無計時\n       "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：樹妖王（東方岩石山Ⅴ）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "樹妖王\n            45 分 · 維多利亞 / 東方岩石山Ⅴ\n            尚無計時\n      "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：巨居蟹（海龜沙灘）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "巨居蟹\n            45 分 · 黃金海岸 / 海龜沙灘\n            尚無計時\n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：殭屍猴王（巫婆森林Ⅰ、Ⅱ）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "殭屍猴王\n            45 分 · 隱密之地 / 巫婆森林Ⅰ、Ⅱ\n            尚無計時\n    "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：蘑菇王（菇菇王出沒地）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "蘑菇王\n            45-60 分 · 隱藏地圖 / 菇菇王出沒地\n            尚無計時\n   "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：殭屍蘑菇王（蘑菇王之墓）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "殭屍蘑菇王\n            45-60 分 · 地城 / 蘑菇王之墓\n            尚無計時\n    "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：沼澤巨鱷（鱷魚潭Ⅰ、Ⅱ）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "沼澤巨鱷\n            45 分 · 戰火之地 / 鱷魚潭Ⅰ、Ⅱ\n            尚無計時\n     "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：巴洛古（被詛咒的寺院）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "巴洛古\n            240-360 分 · 迷霧森林 / 被詛咒的寺院\n            尚無計時\n "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：艾利傑（天空階梯 II）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "艾利傑\n            45 分 · 天空之城 / 天空階梯 II\n            尚無計時\n     "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "加入最愛：雪毛怪人（雪人之谷）"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "雪毛怪人\n            45 分 · 冰原雪域 / 雪人之谷\n            尚無計時\n       "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "bossResetAll",
+          "type": "button",
+          "text": "全部重設未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH1 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH2 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH3 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH4 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH5 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH6 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH7 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH8 未確認 未確認"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "CH9 未確認 未確認"
+        }
+      ],
+      "images": 12,
+      "loadedImages": 12,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "gacha-simulator",
+      "url": "https://morrisrrrrrrr-svg.github.io/gacha-simulator.html",
+      "checkedAt": "2026-10-22",
+      "title": "轉蛋模擬器｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "SELECT",
+          "id": "poolSelect",
+          "type": "select-one",
+          "text": "選擇轉蛋商品"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "記憶音樂盒\n          官方未標示期間\n        \n        33 項"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "皇家美容院\n          2026/10/07 00:00 ~ 2026/10/21 23:59\n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "閃亮彗星\n          2026/10/07 00:00 ~ 2026/10/22 維護前\n        \n  "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "轉蛋機\n          2026/10/07 00:00 ~ 2026/11/05 維護前\n        \n   "
+        },
+        {
+          "tag": "SELECT",
+          "id": "royalCouponSelect",
+          "type": "select-one",
+          "text": "選擇皇家券種"
+        },
+        {
+          "tag": "SELECT",
+          "id": "royalGenderSelect",
+          "type": "select-one",
+          "text": "選擇角色性別"
+        },
+        {
+          "tag": "INPUT",
+          "id": "targetSearch",
+          "type": "search",
+          "text": "輸入獎項名稱或等級"
+        },
+        {
+          "tag": "SELECT",
+          "id": "targetGroupFilter",
+          "type": "select-one",
+          "text": "依獎池篩選"
+        },
+        {
+          "tag": "SELECT",
+          "id": "targetSelect",
+          "type": "select-one",
+          "text": "選擇目標獎項"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "小香腸\n          記憶音樂盒 4.50% · 月光共鳴石 15.00%\n        \n        W寵"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "煎蛋捲\n          記憶音樂盒 4.50% · 月光共鳴石 15.00%\n        \n        W寵"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "飯糰\n          記憶音樂盒 4.50% · 月光共鳴石 15.00%\n        \n        W寵"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你白海豚\n          記憶音樂盒 4.50% · 月光共鳴石 15.00%\n        \n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你黑海豚\n          記憶音樂盒 4.50% · 月光共鳴石 15.00%\n        \n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你粉海豚\n          記憶音樂盒 4.50% · 月光共鳴石 15.00%\n        \n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "小叉子\n          記憶音樂盒 7.50%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "番茄醬\n          記憶音樂盒 7.50%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "海苔碎片\n          記憶音樂盒 7.50%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "白海豚之星\n          記憶音樂盒 7.50%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "黑海豚之星\n          記憶音樂盒 7.50%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "粉海豚之星\n          記憶音樂盒 7.50%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你芙莉蓮\n          記憶音樂盒 0.25% · 月光共鳴石 0.50%\n        \n        P"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你費倫\n          記憶音樂盒 0.25% · 月光共鳴石 0.50%\n        \n        P寵"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你修塔爾克\n          記憶音樂盒 0.25% · 月光共鳴石 0.50%\n        \n        "
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你尤蓓爾\n          記憶音樂盒 0.25% · 月光共鳴石 0.50%\n        \n        P"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "萬能寵物飼料\n          記憶音樂盒 26.00%\n        \n        特殊道具"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "高濃縮優質生命水\n          記憶音樂盒 1.00%\n        \n        特殊道具"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你芙莉蓮法杖\n          月光共鳴石 1.75%\n        \n        寵物裝備"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "迷你費倫法杖\n          月光共鳴石 1.75%\n        \n        寵物裝備"
+        }
+      ],
+      "images": 68,
+      "loadedImages": 68,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "third-job",
+      "url": "https://morrisrrrrrrr-svg.github.io/third-job.html",
+      "checkedAt": "2026-10-22",
+      "title": "三轉題庫｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "questionsTab",
+          "type": "button",
+          "text": "答題查詢"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "flowTab",
+          "type": "button",
+          "text": "任務流程與對話"
+        },
+        {
+          "tag": "INPUT",
+          "id": "questionSearch",
+          "type": "search",
+          "text": "搜尋題目、選項或答案"
+        },
+        {
+          "tag": "SELECT",
+          "id": "questionCategory",
+          "type": "select-one",
+          "text": "全部分類NPC／地圖怪物道具／任務職業常識"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "劍士"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "法師"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "弓箭手"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "盜賊"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "海盜"
+        }
+      ],
+      "images": 118,
+      "loadedImages": 2,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "goddess-tower",
+      "url": "https://morrisrrrrrrr-svg.github.io/goddess-tower.html",
+      "checkedAt": "2026-10-22",
+      "title": "女神組隊｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "goddessUndo",
+          "type": "button",
+          "text": "撤銷上一筆"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "goddessReset",
+          "type": "button",
+          "text": "重新開始"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "goddessCopy",
+          "type": "button",
+          "text": "複製站位"
+        },
+        {
+          "tag": "INPUT",
+          "id": "goddessCopyText",
+          "type": "text",
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "0全不正確"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "11 個正確"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "3全部正確"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 5 人，中 0 人，右 0 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 4 人，中 1 人，右 0 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 4 人，中 0 人，右 1 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 3 人，中 2 人，右 0 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 3 人，中 1 人，右 1 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 3 人，中 0 人，右 2 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 2 人，中 3 人，右 0 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 2 人，中 2 人，右 1 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 2 人，中 1 人，右 2 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 2 人，中 0 人，右 3 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 1 人，中 4 人，右 0 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 1 人，中 3 人，右 1 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 1 人，中 2 人，右 2 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 1 人，中 1 人，右 3 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 1 人，中 0 人，右 4 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 0 人，中 5 人，右 0 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 0 人，中 4 人，右 1 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 0 人，中 3 人，右 2 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 0 人，中 2 人，右 3 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 0 人，中 1 人，右 4 人"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "左 0 人，中 0 人，右 5 人"
+        },
+        {
+          "tag": "SELECT",
+          "id": "goddessWeekday",
+          "type": "select-one",
+          "text": "星期日星期一星期二星期三星期四星期五星期六"
+        }
+      ],
+      "images": 4,
+      "loadedImages": 4,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "exp-exchange",
+      "url": "https://morrisrrrrrrr-svg.github.io/exp-exchange.html",
+      "checkedAt": "2026-10-22",
+      "title": "經驗物工具｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "id": "expLevel",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expPercent",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expTargetLevel",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expShoes",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expSearch",
+          "type": "search",
+          "text": "搜尋材料或獎勵"
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000073",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000059",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000076",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000058",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000060",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000062",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000048",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000061",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000070",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000071",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000072",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000051",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000055",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000069",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000052",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000050",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000057",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000049",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000056",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000053",
+          "type": "number",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "expQty4000054",
+          "type": "number",
+          "text": ""
+        }
+      ],
+      "images": 148,
+      "loadedImages": 33,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "skill-changes",
+      "url": "https://morrisrrrrrrr-svg.github.io/skill-changes.html",
+      "checkedAt": "2026-10-22",
+      "title": "技改資訊｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "十字軍，調整 4"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "騎士，增強 3、調整 2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "龍騎士，未見異動"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "魔導士（火、毒），未見異動"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "魔導士（冰、雷），未見異動"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "祭司，削弱 1、調整 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "遊俠，未見異動"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "狙擊手，增強 2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "暗殺者，調整 1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "神偷，增強 4、調整 2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "格鬥家，增強 1、調整 3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "type": "button",
+          "text": "神槍手，增強 4"
+        }
+      ],
+      "images": 18,
+      "loadedImages": 18,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "halloween",
+      "url": "https://morrisrrrrrrr-svg.github.io/halloween.html",
+      "checkedAt": "2026-10-22",
+      "title": "萬聖節活動｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "漫漫長夜的守護者已完成"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "永恆的營火已完成"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 1 箱已領取"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 2 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 3 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 4 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 5 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 6 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 7 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 8 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 9 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "type": "checkbox",
+          "text": "第 10 箱已購買"
+        },
+        {
+          "tag": "INPUT",
+          "id": "hwSearch",
+          "type": "search",
+          "text": ""
+        },
+        {
+          "tag": "SELECT",
+          "id": "hwChapter",
+          "type": "select-one",
+          "text": "全部章節第一章 · Lv.10第二章 · Lv.30第三章 · Lv.40"
+        },
+        {
+          "tag": "INPUT",
+          "id": "hwScriptSearch0",
+          "type": "search",
+          "text": ""
+        },
+        {
+          "tag": "INPUT",
+          "id": "hwScriptSearch1",
+          "type": "search",
+          "text": ""
+        }
+      ],
+      "images": 4,
+      "loadedImages": 4,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "patch-notes",
+      "url": "https://morrisrrrrrrr-svg.github.io/patch-notes.html",
+      "checkedAt": "2026-10-22",
+      "title": "遊戲更新日誌｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [],
+      "images": 1,
+      "loadedImages": 1,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    },
+    {
+      "page": "web-changelog",
+      "url": "https://morrisrrrrrrr-svg.github.io/web-changelog.html",
+      "checkedAt": "2026-10-22",
+      "title": "網頁更新日誌｜楓憶MapleMemory｜新楓之谷：經典版資料庫",
+      "inputs": [],
+      "images": 1,
+      "loadedImages": 1,
+      "layout": {
+        "width": 1440,
+        "viewport": 1440
+      },
+      "errors": []
+    }
+  ]
+}

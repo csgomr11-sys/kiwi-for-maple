@@ -33,12 +33,14 @@ def main():
         if kind=='items':
             for original,row in zip(rows,index):row['searchTerms']=' '.join(str(v) for v in original.get('activeAliasIds',[]))
         if kind=='quests':
+            for source,row in zip(rows,index):
+                row['searchTerms']=' '.join(x.get('name','') for stage in ['startRequirements','completeRequirements','completeRewards'] for group in ['items','monsters'] for x in source.get(stage,{}).get(group,[]))
             def compact_req(v):
                 v=v or {};return {k:v.get(k) for k in ['minLevel','maxLevel','jobs','pop','items','monsters','skills']} | {'quests':[{k:q.get(k) for k in ['id','name','state','stateLabel']} for q in v.get('quests',[])]}
             for r in index:
                 for k in ['startRequirements','completeRequirements']:r[k]=compact_req(r[k])
                 for k in ['startNpc','endNpc']:
-                    r[k]={a:r[k].get(a) for a in ['id','name','locationText']} if r[k] else None
+                    r[k]={a:r[k].get(a) for a in ['id','name','image','locationText']} if r[k] else None
         write(Path('data')/(kind+'.json'),index)
         buckets={}
         for r in rows:buckets.setdefault(str(int(r['id'])//1000),{})[str(r['id'])]=r
@@ -83,6 +85,7 @@ def main():
     attacks=[{**r,'attack':str(r['id'])=='2301002' or int(r['id'])%10000>=1000 and any((v.get('values',{}).get('damage',0)>0 or v.get('values',{}).get('mad',0)>0) for v in r.get('levels',[]))} for r in catalogs['skills']]
     write(Path('data/attack-skills.json'),attacks)
     write(Path('data/version-audit.json'),audit)
+    write(Path('data/interface-review.json'),json.loads((ROOT/'data/version-evidence/interface-review.json').read_text()))
     write(Path('data/counts.json'),counts)
     shutil.copy2(ROOT/'data/guides.json',OUT/'data/guides.json')
     for p in ['RESEARCH.md','REFERENCES.md','data/SOURCES.md','data/VERSION_AUDIT.md']:

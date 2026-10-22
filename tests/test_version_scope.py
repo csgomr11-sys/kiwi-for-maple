@@ -50,11 +50,15 @@ class VersionScopeTests(unittest.TestCase):
         self.assertNotIn('2103',rows)
         self.assertNotIn('2104',rows)
         self.assertIn('1203',rows)
+        self.assertGreater(len(rows),350)
+        raw={str(q['id']):q for q in json.loads((ROOT/'data/catalog/quests.json').read_text())['quests']}
         for q in rows.values():
-            self.assertTrue(q['availability']['presenceEvidence'])
             self.assertTrue(q['availability']['sourceUrl'].startswith('https://'))
-            self.assertFalse(q['availability']['plannable'])
-            self.assertIsNone(q['completeRewards']['exp'])
+            self.assertTrue(q['availability']['plannable'])
+            self.assertEqual(q['completeRewards'].get('exp'),raw[q['id']]['completeRewards'].get('exp'))
+        self.assertFalse(rows['2001']['availability']['presenceEvidence'])
+        self.assertTrue(rows['1203']['availability']['presenceEvidence'])
+        self.assertTrue(rows['1200']['availability']['presenceEvidence'])
         bucket=json.loads((self.site/'quests-detail/2.json').read_text())
         self.assertNotIn('2103',bucket)
         report=next(r for r in self.audit['records'] if r['kind']=='quests' and r['id']=='2103')
