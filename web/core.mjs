@@ -1,4 +1,4 @@
-import{jobInfo,normalizeProfile}from'./character.mjs?v=quest-journal-20261022';
+import{jobInfo,normalizeProfile}from'./character.mjs?v=readability-20261022';
 export const DEFAULT_PROFILE={jobId:230,attackSkill:2301002,attackLevel:7,attack:0,level:39,str:5,dex:5,int:204,luk:5,heal:7,absorb:20,teleport:1,magic:0,fame:0};
 export function validProfile(p){if(!p||typeof p!=='object')return false;p=normalizeProfile(p);const bounds={level:[1,120],str:[4,9999],dex:[4,9999],int:[4,9999],luk:[4,9999],heal:[0,30],absorb:[0,20],teleport:[0,20],magic:[0,9999],attack:[0,9999],fame:[-30000,30000],attackLevel:[1,30]};const job=jobInfo(p.jobId);return !!job&&p.level>=job.minLevel&&Number.isInteger(p.attackSkill)&&(p.attackSkill===0||job.lineage.includes(Math.floor(p.attackSkill/10000)))&&Object.entries(bounds).every(([k,[lo,hi]])=>Number.isFinite(p[k])&&Number.isInteger(p[k])&&p[k]>=lo&&p[k]<=hi);}
 

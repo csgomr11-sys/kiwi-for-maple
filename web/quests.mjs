@@ -1,4 +1,4 @@
-import {JOBS} from './character.mjs?v=quest-journal-20261022';
+import {JOBS} from './character.mjs?v=readability-20261022';
 const state={query:'',category:'',progress:'all',onlyRole:false,min:'',max:'',selected:null,showUnnamed:false};
 const jobNames=new Map(JOBS.map(j=>[j.id,j.name]));
 const levelText=q=>q.minLevel!=null?`Lv.${q.minLevel}${q.maxLevel!=null?'–'+q.maxLevel:' 起'}`:q.maxLevel!=null?`Lv.${q.maxLevel} 以下`:'等級未列';

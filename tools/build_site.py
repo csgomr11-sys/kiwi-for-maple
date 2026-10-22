@@ -2,6 +2,7 @@
 from pathlib import Path
 import json, shutil
 from version_scope import project
+from native_data import build_native
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'site'
 def write(path,obj):
     p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(obj,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
@@ -87,6 +88,7 @@ def main():
     write(Path('data/version-audit.json'),audit)
     write(Path('data/interface-review.json'),json.loads((ROOT/'data/version-evidence/interface-review.json').read_text()))
     write(Path('data/counts.json'),counts)
+    build_native(catalogs,write)
     shutil.copy2(ROOT/'data/guides.json',OUT/'data/guides.json')
     for p in ['RESEARCH.md','REFERENCES.md','data/SOURCES.md','data/VERSION_AUDIT.md']:
         shutil.copy2(ROOT/p,OUT/Path(p).name)
